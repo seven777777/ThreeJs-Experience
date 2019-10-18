@@ -126,7 +126,7 @@
             initControls();
 
             animate();
-            window.addEventListener( 'resize', onWindowResize, false );
+            window.onresize = onWindowResize;
         }
 
     </script>
